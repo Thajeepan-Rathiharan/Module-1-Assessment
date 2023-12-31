@@ -118,11 +118,11 @@
   var currentUrl = window.location.href;
 
   // Then the browser checks which tab corresponds to the current URL and add the 'w3-white' class for highlighting to let the user(s) know what page they are on.
-  if (currentUrl.includes("text.html")) {
+  if (currentUrl.includes("index.html")) {
     document.getElementById("home").classList.add("w3-white");
-  } else if (currentUrl.includes("aboutme_.html")) {
+  } else if (currentUrl.includes("aboutme.html")) {
     document.getElementById("about").classList.add("w3-white");
-  } else if (currentUrl.includes("contacts_.html")) {
+  } else if (currentUrl.includes("contactme.html")) {
     document.getElementById("contact").classList.add("w3-white");
   }
   // The function below is for when users toggle the menu on small screens, the menu bar will show when the bar is clicked on, and makes the menu bar disappear when clicked on again with the menu isn't needed.
@@ -134,7 +134,7 @@ function myFunction() {
   } else { 
     x.className = x.className.replace(" w3-show", "");
   }
-  // The function is saying that for every element that has the Id "navDemo if the element isn't activated that it shows the menu, and if it is already shown, the shown menu bar gets closed, if not replaced by making it disappear."
+  // The function is saying that for every element that has the Id "navDemo if the element isn't activated that it shows the menu, and if it is already shown, the shown menu bar gets closed, if not replaced by making it disappear.
 }  
 </script>  
 
