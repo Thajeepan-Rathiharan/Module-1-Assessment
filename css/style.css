@@ -151,6 +151,11 @@ body,h1,h2,h3,h4,h5,h6 {
 }
 /* Elements that have the w3-light-grey class have been given a background colour which in this case is light grey as the class name indicates. */  
 
+.myPhoto{
+   width: 100%;
+}
+/* This class is here to adjust the image size on mobile phone screens so that it fits the screen size better instead of being oversized and spreading out to the original image size, which would be bigger than the mobile phone/ tablet screen size. */
+
 }
 /* This closing curly brace bracket states the end of the css settings for elements when it's viewed on a screen resolution of 400px (pixels) or more. */ 
 
@@ -311,6 +316,13 @@ body,h1,h2,h3,h4,h5,h6 {
 }
 /* Elements in the HTML code that have the text class have their text centered, and pushed away from the right side of the page by -290px (pixels) to arrange them at the middle of the page. This was done due to text-align: center not being able to properly center the text on the page. 
    This was only done for the website when viewing it on the desktop screen size because on phone without this class on the element, the text is centered perfectly fine, however on desktop the text was too far to the right side of the screen. */
+
+   .myPhoto{
+      width: 90%;
+      margin-left: 180px;
+   }      
+/* This class is here to adjust the image size on mobile phone screens so that it fits the screen size better instead of being oversized and spreading out to the original image size, which on a desktop screen would fit perfectly fine, but wouldn't be aligned.
+   Therefore 'margin-left' is used as the image stays to the right of the page, and by moving it 180 px(pixels) away from the left it allwos the image to be in the center of the page. */   
 
 }
 /* This closing curly brace bracket states the end of the css settings for elements when it's viewed on a screen resolution of 1025px (pixels) or more. */ 
