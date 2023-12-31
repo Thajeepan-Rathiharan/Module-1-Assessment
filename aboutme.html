@@ -53,9 +53,12 @@
   </div>
 
   <!-- Navbar screen elements for small screens -->
-
   <!-- An id element gives a specific style to the element it is given to. -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+  <!-- The javascript function at the end of the line after href:"javascript;void(0);" is telling the browser that the navigation menu bar becomes a toggle navigation menu, given by the title, it will be in the form of a burger menu style. 
+       It also states that the menu bar will appear 'onclick', which in other words means when the user(s) click the menu bar that the navigation menu bar will open. 
+       However, this burger style navigation menu will only appear to users when viewing the website on smaller screens. -->
+
     <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
     <a href="aboutme.html" class="w3-bar-item w3-button w3-padding-large">About Me</a>
     <a href="contactme.html" class="w3-bar-item w3-button w3-padding-large">Contact Me</a>
@@ -111,10 +114,10 @@
 </footer>
 
 <script>
-  // Get the current URL
+  // The browser gets the current URL the user(s) on with the first line.
   var currentUrl = window.location.href;
 
-  // Check which tab corresponds to the current URL and add the 'w3-white' class for highlighting
+  // Then the browser checks which tab corresponds to the current URL and add the 'w3-white' class for highlighting to let the user(s) know what page they are on.
   if (currentUrl.includes("text.html")) {
     document.getElementById("home").classList.add("w3-white");
   } else if (currentUrl.includes("aboutme_.html")) {
@@ -122,7 +125,8 @@
   } else if (currentUrl.includes("contacts_.html")) {
     document.getElementById("contact").classList.add("w3-white");
   }
-  // Used to toggle the menu on small screens when clicking on the menu button
+  // The function below is for when users toggle the menu on small screens, the menu bar will show when the bar is clicked on, and makes the menu bar disappear when clicked on again with the menu isn't needed.
+  // Another thing with the function is that is uses the Id element "navDemo", meaning that elements that have that Id in this HTML code will be affected by this javascript function, which in this case is the div element for the burger navigation menu bar that is made to appear for users that view the website on smaller screens.
 function myFunction() {
   var x = document.getElementById("navDemo");
   if (x.className.indexOf("w3-show") == -1) {
@@ -130,6 +134,7 @@ function myFunction() {
   } else { 
     x.className = x.className.replace(" w3-show", "");
   }
+  // The function is saying that for every element that has the Id "navDemo if the element isn't activated that it shows the menu, and if it is already shown, the shown menu bar gets closed, if not replaced by making it disappear."
 }  
 </script>  
 
