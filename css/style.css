@@ -161,6 +161,12 @@ body,h1,h2,h3,h4,h5,h6 {
    text-align:center;
 }
 /* Elements with the smaller-screen-text class name will have their line of text aligned in the center instead of starting from the left or right looking uneven. This is mainly to support the text on smaller screens such as a mobile phone so the text doesn't look out of place. */
+
+.smaller-screen-list{
+   margin-right: 40px; 
+}
+/* Elements with the smaller-screen-list class name will have that element be pushed away from the right side of the screen by 40px (pixels). 
+   This is done due to the text in the section with the unordered list is too far to the right side of the screen on a mobile screen, so margin-right was used to push it away from the right and be aligned with the other text in the middle. */
 }
 /* This closing curly brace bracket states the end of the css settings for elements when it's viewed on a screen resolution of 400px (pixels) or more. */ 
 
