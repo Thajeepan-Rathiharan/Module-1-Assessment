@@ -10,25 +10,25 @@ This can be seen with the @media screen resolutions stated on the css stylesheet
 
 ## Features of the site
 
-*Feature 1 - easy navigation through all pages
-*Feature 2 - easy access to social media accounts via hyperlinks on the contacts page and the footer 
-*Feature 3 - responsive on both desktop and mobiles
-*Feature 4 - readable content for all users 
+* Feature 1 - easy navigation through all pages
+* Feature 2 - easy access to social media accounts via hyperlinks on the contacts page and the footer 
+* Feature 3 - responsive on both desktop and mobiles
+* Feature 4 - readable content for all users 
 
 ## Software used to code
 
-'*' Visual Studio Code
-'*' HTML
-'*' CSS
-'*' JavaScript 
-'*' Git
-'*' Github
+* Visual Studio Code
+* HTML
+* CSS
+* JavaScript 
+* Git
+* Github
 
 ## Testing of the site
 
 I tested my website using online tools such as: 
-'*' [HTML WC3 Markup Validation Service](https://validator.w3.org/)
-'*' [CSS WC3 Markup Validation Service](https://jigsaw.w3.org/css-validator/)
+* [HTML WC3 Markup Validation Service](https://validator.w3.org/)
+* [CSS WC3 Markup Validation Service](https://jigsaw.w3.org/css-validator/)
 
 After testing each page of my website on the [HTML WC3 Markup Validation Service](https://validator.w3.org/), it came back with no errors. However on the contact me page it bought up errors with putting text in between listing elements, but it's fine as text is needed to explain what the list will be of. 
 
