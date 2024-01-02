@@ -505,10 +505,10 @@ body,h1,h2,h3,h4,h5,h6 {
 
 .desktop-text{
    text-align: center;
-   margin-right: -100px;
+   margin-right: -120px;
   font-size: 25px;
 }
-/* Elements in the HTML code that have the text class have their text centered, and pushed away from the right side of the page by -290px (pixels) to arrange them at the middle of the page. This was done due to text-align: center not being able to properly center the text on the page. 
+/* Elements in the HTML code that have the text class have their text centered, and pushed away from the right side of the page by -120px (pixels) to arrange them at the middle of the page. This was done due to text-align: center not being able to properly center the text on the page. 
    This was only done for the website when viewing it on the desktop screen size because on phone without this class on the element, the text is centered perfectly fine, however on desktop the text was too far to the right side of the screen.
    The font size is increased to 25px (pixels) due to the text needing to be more visible than what it was at before. */
 
