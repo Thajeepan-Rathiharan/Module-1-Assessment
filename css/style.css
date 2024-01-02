@@ -512,12 +512,12 @@ body,h1,h2,h3,h4,h5,h6 {
    This was only done for the website when viewing it on the desktop screen size because on phone without this class on the element, the text is centered perfectly fine, however on desktop the text was too far to the right side of the screen.
    The font size is increased to 25px (pixels) due to the text needing to be more visible than what it was at before. */
 
-   .myPhoto{
-      width: 90%;
-      margin-left: 180px;
-   }      
+.myPhoto{
+   width: 90%;
+   margin-left: 180px;
+}      
 /* Elements with the myPhoto class will have their width set to 90% meaning that it takes up 90% of the space available to it.
    The image has more space on the screen than a mobile phone screen, so on a desktop screen it may be placed somewhere it isn't supposed to be, for example it could be placed on the right of the page instead of the center of the page. 
-   Thererefore 'margin-left' is used as the image stays to the right of the page, and by moving it 180 px(pixels) away from the left it allwos the image to be in the center of the page. */   
+   Thererefore 'margin-left' is used as the image stays to the right of the page, and by moving it 180 px(pixels) away from the left it allwos the image to be in the center of the page. */  
 }
 /* This closing curly brace bracket states the end of the css settings for elements when it's viewed on a screen resolution of 1025px (pixels) or more. */ 
