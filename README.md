@@ -30,12 +30,14 @@ I tested my website using online tools such as:
 -[HTML WC3 Markup Validation Service](https://validator.w3.org/)
 -[CSS WC3 Markup Validation Service](https://jigsaw.w3.org/css-validator/)
 
+After testing each page of my website on the [HTML WC3 Markup Validation Service](https://validator.w3.org/), it came back with no errors. However on the contact me page it bought up errors with putting text in between <ul> elements, but it's fine as text is needed to explain what the list will be of. 
+
+The website was also put through the [CSS WC3 Markup Validation Service](https://jigsaw.w3.org/css-validator/) and it came back with no errors.
+
 ### Deployment
 
-The website was made using Visual Studio Code, a local git directory was used for version control and then bought to life using Github after the files were uploaded into a repository. To do this I initiated the git repository with 'git innit', then used 'git status' 
-to see which of my un-tracked files had not been added to the new repository. I used 'git commit -m "added in a specific message" to commit
-my changed files to the repository. Once my files were committed I used 'git push' to push all my new and changed files to GitHub
-before making it live with Git pages. I did this every time I made major changes to any part of my site.  
+The website was made using Visual Studio Code, a local git directory was used for version control and then bought to life using Github after the files were uploaded into a repository. To do this I initiated the git repository with 'git innit', then used 'git status'  to see which of my un-tracked files had not been added to the new repository. I used 'git commit -m "added in a specific message" to commit my changed files to the repository.  
+After realising I had source control on Visual Studio Code, I was committing to my github repository via the source control tool from Git adding my commits with a message of what change I made to the code. 
 
 ## Credits
 
