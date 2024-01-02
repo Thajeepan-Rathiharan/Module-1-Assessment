@@ -1,7 +1,8 @@
 /* Mobile screen page settings for viewing the website. */
-@media screen and (min-width: 390px){
+@media screen and (min-width: 360px){
 /* @media screen is used to change the content on the screen of a web page depending on the device width. An example is with this website the content will be bigger on desktop, but smaller on a mobile phone or tablet.
-   So that they don't look completely different, @media screen enables the users to be able to have the right sizes and shapes showing via having different values for the element, so when it goes from a desktop view to mobile view the only thing changing will be the screen size and not the content. */   
+   So that they don't look completely different, @media screen enables the users to be able to have the right sizes and shapes showing via having different values for the element, so when it goes from a desktop view to mobile view the only thing changing will be the screen size and not the content.
+   360px (pixels) is chosen as the minimum width for the device because the smallest screen size in terms of width from the devices on the Google Inspect tool is 360px (pixels). */   
 
 body,h1,h2,h3,h4,h5,h6 {
    font-family: "Lato", sans-serif}
