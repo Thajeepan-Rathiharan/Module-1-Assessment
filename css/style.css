@@ -503,7 +503,7 @@ body,h1,h2,h3,h4,h5,h6 {
 }
 /* Elements that have the w3-light-grey class have been given a background colour which in this case is light grey as the class name indicates. */
 
-.text{
+.desktop-text{
     text-align: center;
     margin-right: -290px;
 }
