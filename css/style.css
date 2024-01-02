@@ -154,8 +154,13 @@ body,h1,h2,h3,h4,h5,h6 {
 .myPhoto{
    width: 100%;
 }
-/* This class is here to adjust the image size on mobile phone screens so that it fits the screen size better instead of being oversized and spreading out to the original image size, which would be bigger than the mobile phone/ tablet screen size. */
+/* This class is here to adjust the image size on mobile phone screens so that it fits the screen size better instead of being oversized and spreading out to the original image size, which would be bigger than the mobile phone/ tablet screen size.
+   In other words the width being set to 100% allows the image to take up the full amount of space that it has around it, which is benefitial when viewing on a smaller screen as the image may be small if set to a width of a smaller value like 50%. */
 
+.smaller-screen-text{
+   text-align:center;
+}
+/* Elements with the smaller-screen-text class name will have their line of text aligned in the center instead of starting from the left or right looking uneven. This is mainly to support the text on smaller screens such as a mobile phone so the text doesn't look out of place. */
 }
 /* This closing curly brace bracket states the end of the css settings for elements when it's viewed on a screen resolution of 400px (pixels) or more. */ 
 
@@ -321,8 +326,8 @@ body,h1,h2,h3,h4,h5,h6 {
       width: 90%;
       margin-left: 180px;
    }      
-/* This class is here to adjust the image size on mobile phone screens so that it fits the screen size better instead of being oversized and spreading out to the original image size, which on a desktop screen would fit perfectly fine, but wouldn't be aligned.
-   Therefore 'margin-left' is used as the image stays to the right of the page, and by moving it 180 px(pixels) away from the left it allwos the image to be in the center of the page. */   
-
+/* Elements with the myPhoto class will have their width set to 90% meaning that it takes up 90% of the space available to it.
+   The image has more space on the screen than a mobile phone screen, so on a desktop screen it may be placed somewhere it isn't supposed to be, for example it could be placed on the right of the page instead of the center of the page. 
+   Thererefore 'margin-left' is used as the image stays to the right of the page, and by moving it 180 px(pixels) away from the left it allwos the image to be in the center of the page. */   
 }
 /* This closing curly brace bracket states the end of the css settings for elements when it's viewed on a screen resolution of 1025px (pixels) or more. */ 
