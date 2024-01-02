@@ -339,15 +339,17 @@ body,h1,h2,h3,h4,h5,h6 {
    /* Elements with the smaller-screen-text class name will have their line of text aligned in the center instead of starting from the left or right looking uneven. This is mainly to support the text on smaller screens such as a mobile phone so the text doesn't look out of place. */
    
    .smaller-screen-list{
-      margin-right: 40px; 
+      margin-right: -250px; 
    }
-   /* Elements with the smaller-screen-list class name will have that element be pushed away from the right side of the screen by 40px (pixels). 
-      This is done due to the text in the section with the unordered list is too far to the right side of the screen on a mobile screen, so margin-right was used to push it away from the right and be aligned with the other text in the middle. */
+   /* Elements with the smaller-screen-list class name will have that element be pushed away from the right side of the screen by -250px (pixels). 
+      This is done due to the text in the section with the unordered list is too far to the right side of the screen on a mobile screen, so margin-right was used to push it away from the right and be aligned with the other text in the middle.
+      Note that this value is different from the other values on the two other media queries because this value is only in effect when the user(s) view the website on a tablet. */
    
    .tablet-text{
       margin-left: 200px;
       margin-right: -90px;
    }
+   /* Elements with this class will only be affected during the website being viewed on tablet screens which positions the text to center on the screen. */
 }
 /* This closing curly brace bracket states the end of the css settings for elements when it's viewed on a screen resolution of 768px (pixels) or more. */ 
 
