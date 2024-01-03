@@ -337,7 +337,7 @@ body,h1,h2,h3,h4,h5,h6 {
       margin-left: 100px;
       margin-right: -120px;
    }
-   /* Elements with this class will only be affected during the website being viewed on tablet screens which positions the text to center on the screen. */
+   /* Elements with this class will only be affected during the website being viewed on tablet screens which positions the text on the screen. */
 }
 /* This closing curly brace bracket states the end of the css settings for elements when it's viewed on a screen resolution of 768px (pixels) or more. */ 
 
